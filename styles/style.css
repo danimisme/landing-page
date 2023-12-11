@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: inline;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+
+.top-header .logo-container {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+
+.top-header .logo-container .img-logo{
+    width: 75px;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Tengah horizontal */
+    align-items: center; /* Tengah vertikal */
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.top-header .title p{
+    margin-top: 0.3rem;
+    font-size: 1.5em;
+}
+
+.search-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-form input {
+    font-size: 1.5em;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 200px;
+}
+.btn-search{
+    font-size: 30px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.btn-contact{
+    margin: 5px;
+    padding: 10px;
+}
+
+nav {
+    background-color: plum;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+}
+
+nav ul{
+  padding-inline: 4rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav ul li a i {
+    font-size: 30px;
+}
+
+.banner{
+    background-image: url('../assets/banner-sementara.png');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+/* Content */
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    margin: 20px;
+    gap: 1rem;
+    text-align: center;
+}
+
+figure .ex-img{
+    align-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: grey;
+    color: aliceblue;
+    display: flex;
+    justify-content: center; /* Tengah horizontal */
+    align-items: center; /* Tengah vertikal */
+}
